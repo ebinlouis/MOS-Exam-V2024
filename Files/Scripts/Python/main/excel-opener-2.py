@@ -4,7 +4,7 @@ import os
 def openExcel():
     try:
         # Specify the path to your Excel file
-        file_path = 'src/Excel/Project 1.2.xlsx'
+        file_path = '../Files/Excel/Project 1.2.xlsx'
         
         # Check if the file exists
         if not os.path.isfile(file_path):
